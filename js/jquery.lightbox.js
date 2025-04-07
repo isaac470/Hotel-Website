@@ -1,18 +1,15 @@
 
 (function($) {
-	/**
-	 * $ is an alias to jQuery object
-	 *
-	 */
+	
 	$.fn.lightBox = function(settings) {
-		// Settings to configure the jQuery lightBox plugin how you like
+		
 		settings = jQuery.extend({
-			// Configuration related to overlay
-			overlayBgColor: 		'#000',		// (string) Background color to overlay; inform a hexadecimal value like: #RRGGBB. Where RR, GG, and BB are the hexadecimal values for the red, green, and blue values of the color.
-			overlayOpacity:			0.8,		// (integer) Opacity value to overlay; inform: 0.X. Where X are number from 0 to 9
-			// Configuration related to navigation
-			fixedNavigation:		false,		// (boolean) Boolean that informs if the navigation (next and prev button) will be fixed or not in the interface.
-			// Configuration related to images
+			
+			overlayBgColor: 		'#000',		
+			overlayOpacity:			0.8,		
+			
+			fixedNavigation:		false,		
+			
 			imageLoading:			'images/lightbox-ico-loading.gif',		// (string) Path and the name of the loading icon
 			imageBtnPrev:			'images/lightbox-btn-prev.gif',			// (string) Path and the name of the prev button image
 			imageBtnNext:			'images/lightbox-btn-next.gif',			// (string) Path and the name of the next button image
